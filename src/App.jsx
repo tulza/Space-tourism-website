@@ -1,12 +1,12 @@
 import { useState } from "react";
+import NavigationBar from "./components/NavigationBar";
 import "./style/styles.css";
 
 function App() {
   return (
     <>
-      <div className="flex justify-center align-middle">
-        <h1> thisa template</h1>
-      </div>
+      <NavigationBar />
+      <img src="/src/assets/home/background-home-desktop.jpg" id="main-bg" />
     </>
   );
 }

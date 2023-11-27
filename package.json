@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "homepage": "https://tulza.github.io/Space-tourism-website",
   "name": "Space-tourism-website",
-=======
-  "homepage": "https://tulza.github.io/url-shortening-api",
-  "name": "url-shortening-api",
->>>>>>> 9b2184dbf3171a6e38abc15040fd8703cceb34ba
   "private": false,
   "version": "0.0.0",
   "type": "module",
