@@ -1,12 +1,12 @@
 import { useState } from "react";
 import NavigationBar from "./components/NavigationBar";
 import "./style/styles.css";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
     <>
-      <NavigationBar />
-      <img src="/src/assets/home/background-home-desktop.jpg" id="main-bg" />
+      <Homepage/>
     </>
   );
 }
