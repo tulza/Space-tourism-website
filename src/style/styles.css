@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(./font.css);
 
 @layer components {
   .test {
@@ -10,8 +11,8 @@
 
 #root {
   height: 100vh;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 #main-bg {
-  height: 100vh;
 }

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("BarlowCondensed"), url("../fonts/BarlowCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Bellefair";
+  src: local("Bellefair-Regular"), url("../fonts/Bellefair-Regular.ttf");
+}

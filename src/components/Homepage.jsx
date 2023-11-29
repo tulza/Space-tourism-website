@@ -1,8 +1,11 @@
 import React from "react";
+import { Test } from "./Test";
 import NavigationBar from "./NavigationBar";
 
-const Homepage = () => {
-  
+const Homepage = (test) => {
+  if (test) {
+    return <Test />;
+  }
   return (
     <>
       <NavigationBar />

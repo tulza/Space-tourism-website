@@ -1,12 +1,13 @@
 import { useState } from "react";
-import NavigationBar from "./components/NavigationBar";
 import "./style/styles.css";
+import "./style/fonts.css";
 import Homepage from "./components/Homepage";
+import NavigationBar from "./components/NavigationBar";
 
 function App() {
   return (
     <>
-      <Homepage/>
+      <Homepage test={true} />
     </>
   );
 }
