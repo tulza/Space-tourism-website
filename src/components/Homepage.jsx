@@ -2,6 +2,7 @@ import React from "react";
 import NavigationBar from "./NavigationBar";
 
 const Homepage = () => {
+  
   return (
     <>
       <NavigationBar />
