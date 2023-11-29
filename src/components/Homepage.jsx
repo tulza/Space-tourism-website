@@ -9,7 +9,7 @@ const Homepage = (test) => {
   return (
     <>
       <NavigationBar />
-      <img src="/src/assets/home/background-home-desktop.jpg" id="main-bg" />
+      <img src="/src/assets/home/background-home-desktop.jpg" />
     </>
   );
 };

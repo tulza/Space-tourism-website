@@ -7,3 +7,45 @@
   font-family: "Bellefair";
   src: local("Bellefair-Regular"), url("../fonts/Bellefair-Regular.ttf");
 }
+#root {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.sh1 {
+  font-family: "Bellefair", sans-serif;
+}
+
+h1 {
+  @apply text-[150px];
+}
+
+h2 {
+  @apply text-[100px];
+}
+
+h3 {
+  @apply text-[56px];
+}
+
+h4 {
+  @apply text-[32px];
+}
+h5 {
+  @apply text-[28px] tracking-[4.75px];
+}
+
+.sh1 {
+  @apply text-[28px];
+}
+
+.sh2 {
+  @apply text-[14px] tracking-[2.7px];
+}
+
+#nav-bar {
+  @apply text-[16px] tracking-[2.7px];
+}
