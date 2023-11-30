@@ -46,6 +46,6 @@ h5 {
   @apply text-[14px] tracking-[2.7px];
 }
 
-#nav-bar {
+.nav-bar {
   @apply text-[16px] tracking-[2.7px];
 }

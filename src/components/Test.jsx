@@ -6,7 +6,7 @@ export const Test = () => {
     // <div className="w-[1440px] h-[900px] flex items-center justify-center bg-blue-100 m-20 py-20">
     // </div>
     <>
-      {/* <NavigationBar /> */}
+      <NavigationBar />
       <div className="flex flex-col h-[100vh]">
         <img
           src="/src/assets/home/background-home-desktop.jpg"
